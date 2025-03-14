@@ -1,10 +1,11 @@
-'use client';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+"use client";
 
-import { useEffect, useState } from 'react';
-import Particles, { initParticlesEngine } from '@tsparticles/react';
-import { loadSlim } from '@tsparticles/slim';
-import type { Engine } from '@tsparticles/engine';
-import { motion } from 'motion/react';
+import { useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+import type { Engine } from "@tsparticles/engine";
+import { motion } from "motion/react";
 
 export const Animation = () => {
   const [init, setInit] = useState(false);
@@ -44,23 +45,23 @@ export const Animation = () => {
                 },
               },
               shape: {
-                type: '',
+                type: "",
               },
               links: {
                 enable: true,
                 distance: 20, // distance between particles
-                color: '#39FF14', // color of lines
+                color: "#39FF14", // color of lines
                 opacity: 1,
                 width: 1,
               },
               move: {
                 enable: true,
                 speed: 0.7,
-                direction: 'none',
+                direction: "none",
                 random: false,
                 straight: false,
                 outModes: {
-                  default: 'out',
+                  default: "out",
                 },
                 attract: {
                   enable: false,
@@ -72,19 +73,19 @@ export const Animation = () => {
               },
             },
             interactivity: {
-              detectsOn: 'canvas',
+              detectsOn: "canvas",
               events: {
                 onDiv: {
-                  selectors: '#repulse-div',
-                  mode: 'repulse',
+                  selectors: "#repulse-div",
+                  mode: "repulse",
                 },
                 onHover: {
                   enable: true,
-                  mode: 'repulse',
+                  mode: "repulse",
                 },
                 onClick: {
                   enable: false,
-                  mode: 'push',
+                  mode: "push",
                 },
               },
               modes: {
