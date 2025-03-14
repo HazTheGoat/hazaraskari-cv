@@ -11,6 +11,21 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Hazar Askari - Portfolio",
   description: "My life, my work, my portfolio",
+  openGraph: {
+    title: "Hazar Askari - Portfolio",
+    description: "My life, my work, my portfolio",
+    type: "website",
+    locale: "no_NO",
+    url: "https://www.hazaraskari.dev",
+    images: [
+      {
+        url: "https://www.hazaraskari.dev/thumb.png",
+        width: 800,
+        height: 600,
+        alt: "Hazar Askari",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
