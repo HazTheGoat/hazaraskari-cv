@@ -9,6 +9,7 @@ import { motion } from "motion/react";
 import { Animation } from "./components/particles";
 
 export default function Index() {
+  //test
   return (
     <div>
       <div className="wrapper bg-[#03101B]" style={{ position: "relative" }}>
