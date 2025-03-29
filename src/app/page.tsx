@@ -65,7 +65,7 @@ export default function Index() {
                       <span className="font-bold underline text-yellow-500">
                         Typescript
                       </span>
-                      , React Query, HTML5, SASS, Design Systems/Patterns, Style
+                      , HTML5, React Query, SASS, Design Systems/Patterns, Style
                       Guides,{" "}
                       <span className="font-bold underline text-fuchsia-500">
                         Architecture
