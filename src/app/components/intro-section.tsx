@@ -7,7 +7,7 @@ export const IntroSection = () => {
       <div className="mb-20">
         <h1 className="text-4xl md:text-8xl font-bold mb-2">Hazar Askari</h1>
         <p className="text-2xl">
-          Experienced JavaScript Engineer with 10+ Years Expertise | Front-end
+          Principle JavaScript Engineer with 10+ Years Expertise | Front-end
           Architect | Tech Speaker and Trainer Extraordinaire | Empowering
           Clients to Create Scalable and Maintainable Front-end project
         </p>
@@ -16,11 +16,11 @@ export const IntroSection = () => {
       <div className="mb-20">
         <h1 className="text-4xl font-bold mb-2">Summary</h1>
         <p className="text-2xl">
-          I am a front-end architect and JavaScript engineer with over 10 years
-          of experience building scalable, maintainable, and high-performing web
-          applications. My expertise lies in React, Next.js, TypeScript, and NX
-          Monorepos, crafting solutions that streamline development, enhance
-          performance, and improve user experiences.
+          I am a principle front-end engineer with over 10 years of experience
+          building scalable, maintainable, and high-performing web applications.
+          My expertise lies in React, Next.js, TypeScript, and NX Monorepos,
+          crafting solutions that streamline development, enhance performance,
+          and improve user experiences.
         </p>
         <br />
         <p>
